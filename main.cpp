@@ -401,10 +401,10 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"seed.bitcoin-global.dev", "dnsseed.bitcoin-global.io", "dnsseed.bitcoin-global.co", ""};
+static const string mainnet_seeds[] = {"dnsseed.bitcoin-global.dev", "dnsseed.bitcoin-global.io", "dnsseed.bitcoin-global.co", ""};
 static const string testnet_seeds[] = {"test-dnsseed.bitcoin-global.io",
                                        "test-dnsseed.bitcoin-global.co",
-                                       "globt-dnsseed.bitcoin-global.co",
+                                       "test-dnsseed.bitcoin-global.dev",
                                        ""};
 static const string *seeds = mainnet_seeds;
 
